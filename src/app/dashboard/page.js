@@ -74,7 +74,7 @@ export default function DashboardPage() {
                 created.map((t) => <TaskCard key={t._id} task={t} />)
               ) : (
                 <p className="text-gray-600 text-center">
-                  You haven't created any tasks.
+                  You haven&apos;t created any tasks.
                 </p>
               )}
             </div>
