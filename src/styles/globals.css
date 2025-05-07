@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fira+Code&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-primary-light to-secondary-light font-sans;
+}
+
+h2,
+h3 {
+  @apply text-gray-800 font-semibold;
+}
+
+button {
+  @apply transition duration-200 ease-in-out;
+}
